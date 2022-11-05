@@ -28,3 +28,9 @@ body{
     border-radius: 25px;
     background-color: #5ac6ac;
 }
+
+#login{
+    border: 2px solid;
+    border-radius: 25px;
+    background-color: #5ac6ac;
+}
