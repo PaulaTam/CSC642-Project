@@ -10,7 +10,7 @@ body{
 .sign-up-form{
     width: 400px;
     box-shadow:  5px 5px gray;
-    background: white;
+    background: #117ACA;
     padding: 20px;
     margin: 8% auto 0;
     text-align: center;
@@ -20,7 +20,7 @@ body{
 #box{
     border-radius: 25px;
     border-color: black;
-    background-color: 	#F5FFFA;
+    background-color: 	#117ACA;
 }
 
 #signup_button{
