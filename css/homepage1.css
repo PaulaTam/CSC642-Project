@@ -52,4 +52,22 @@ li {
     text-align: center;
 }
 
+.maincontent {
+    padding-top: 20px;
+}
+
+.setup {
+    text-align: center;
+    padding: 20px 10px 0 10px;
+}
+
 /*End-BODY*/
+
+/*FOOTER START*/
+#footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+/*FOOTER END*/
