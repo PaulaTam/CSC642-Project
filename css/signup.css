@@ -21,7 +21,6 @@
     overflow: hidden;
 }
 
-<<<<<<< HEAD
 .button-box{
     width: 220px;
     margin: 35px auto;
@@ -49,14 +48,14 @@
 }
 .social-icon{
     margin: 30px auto;
-=======
+}
+
 .sign-up-form{
     width: 400px;
     box-shadow:  5px 5px gray;
     background: #117ACA;
     padding: 20px;
     margin: 8% auto 0;
->>>>>>> adc1c8d4f665d8f651eeac5fe9f539b27ed3a9eb
     text-align: center;
 }
 .social-icon img{
@@ -85,7 +84,6 @@
     background: transparent;
     
 }
-<<<<<<< HEAD
 .submit-btn{
     width: 85%;
     padding: 10px 30px;
@@ -113,22 +111,3 @@ span{
     left: 450px;
 }
 
-=======
-#box{
-    border-radius: 25px;
-    border-color: black;
-    background-color: 	#117ACA;
-}
-
-#signup_button{
-    border: 2px solid;
-    border-radius: 25px;
-    background-color: #5ac6ac;
-}
-
-#login{
-    border: 2px solid;
-    border-radius: 25px;
-    background-color: #5ac6ac;
-}
->>>>>>> adc1c8d4f665d8f651eeac5fe9f539b27ed3a9eb
