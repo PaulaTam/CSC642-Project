@@ -5,7 +5,7 @@
 
 /*start-navbar*/
 nav {
-    background-color: #117ACA;
+    background-color: #138808;
     height: 64px;
     min-height: 25px;
     max-height: 100px;
@@ -41,3 +41,46 @@ li {
 }
 
 /*#end-navbar*/
+
+.profileDiv {
+    background-color: #72d369;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    padding: 80px 60px;
+    flex-wrap: wrap;
+}
+
+.informationDiv {
+    margin: auto;
+}
+
+.occ {
+    width: 300px;
+    height: 200px;
+    overflow: auto;
+}
+
+.username {
+    width: 200px;
+    height: 30px;
+}
+
+.location {
+    width: 200px;
+    height: 30px;
+}
+
+.pictureDiv {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.proImg {
+    width: 200px;
+    height: 200px;
+}
