@@ -41,3 +41,16 @@ li {
 }
 
 /*#end-navbar*/
+
+/*Start Main Content*/
+.welcomeback {
+    text-align: center;
+    border: 1px solid;
+    margin: 10px 10%;
+}
+
+.maincontainer {
+    display: flex;
+}
+
+/*End Main Content*/
