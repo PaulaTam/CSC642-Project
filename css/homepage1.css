@@ -34,7 +34,7 @@ nav {
     color: white;
 }
 
-li {
+.nav-item {
     float: left;
     display: flex;
     flex-wrap: wrap;
@@ -68,6 +68,10 @@ li {
     background-color: #fff;
     text-align: center;
     padding: 7% 15%;
+}
+
+.footer-icon {
+    padding: 0 10px 10px 0;
 }
 
 /*FOOTER END*/

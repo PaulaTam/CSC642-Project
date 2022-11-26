@@ -42,34 +42,58 @@
         <h1>Welcome Back "*****"</h1>
     </div>
     <div class="maincontainer">
-        <div class="daily-limit column-3" style="background-color: red">
+        <div class="daily-limit column-3">
+            <h1 class="title">Today's Limit</h1>
             <div class="todaysLimit">
-                <h1>Today's Limit</h1>
-                <h1>$10000000</h1>
+                <h1 class="moneyAmount" style="color: green">$10000000</h1>
             </div>
+            <h1 class="title">Today's Spending</h1>
             <div class="todaysSpending">
-                <h1>Today's Spending</h1>
-                <ul>
-                    <li>-$$$$$$</li>
+                <ul class="todaysList">
+                    <li class="list-item">-$$$$$$</li>
+                    <li class="list-item">-$$$$$$</li>
+                    <li class="list-item">-$$$$$$</li>
+                    <li class="list-item">-$$$$$$</li>
+                    <li class="list-item">-$$$$$$</li>
                 </ul>
             </div>
-            <button>Add Spending</button>
+            <button type="button" class="addspending">Add Spending</button>
         </div>
-        <div class="list-spending column-3" style="background-color: blue">
+        <div class="list-spending column-3">
             <div>
-                <h1>List of Spendings</h1>
-                <ul>
-                    <li>$100000 Purse</li>
-                    <li>$100000 Car</li>
-                </ul>
+                <h1 class="title">List of Spendings</h1>
+                <div class="list-of-spending">
+                    <ul class="spendinglist">
+                        <li>$100000 Purse</li>
+                        <li>$100000 Car</li>
+                        <li>$100000 Purse</li>
+                        <li>$100000 Car</li>
+                        <li>$100000 Purse</li>
+                        <li>$100000 Car</li>
+                        <li>$100000 Purse</li>
+                        <li>$100000 Car</li>
+                        <li>$100000 Purse</li>
+                        <li>$100000 Car</li>
+                        <li>$100000 Purse</li>
+                        <li>$100000 Car</li>
+                        <li>$100000 Purse</li>
+                        <li>$100000 Car</li>
+                        <li>$100000 Purse</li>
+                        <li>$100000 Car</li>
+                        <li>$100000 Purse</li>
+                        <li>$100000 Car</li>
+                    </ul>
+                </div>
             </div>
         </div>
-        <div class="savings column-3" style="background-color: green">
+        <div class="savings column-3">
             <div>
-                <h1>Savings for: "Insert Motivation"</h1>
-                <div>$20000</div>
-                <div>
-                    <ul>
+                <h1 class="title">Savings for: "Insert Motivation"</h1>
+                <div class="todaysLimit">
+                    <h1 class="moneyAmount" style="color: green">$20000</h1>
+                </div>
+                <div class="todaysSpending">
+                    <ul class="todaysList">
                         <li>11/12/22 +$1000</li>
                         <li>11/12/22 +$1000</li>
                         <li>11/12/22 +$1000</li>
@@ -77,11 +101,20 @@
                         <li>11/12/22 +$1000</li>
                     </ul>
                 </div>
-                <button>Withdraw</button>
+                <button type="button" class="withdraw">Withdraw</button>
             </div>
         </div>
     </div>
     <!--End of Main Content-->
+    <!--Start Footer-->
+    <footer id="footer">
+        <i class="footer-icon fa fa-brands fa-twitter"></i>
+        <i class="footer-icon fa fa-brands fa-facebook"></i>
+        <i class="footer-icon fa fa-brands fa-instagram"></i>
+        <i class="footer-icon fa fa-solid fa-envelope"></i>
+        <p>© Copyright 2022 MoneyTrack</p>
+    </footer>
+    <!--End Footer-->
 </body>
 
 </html>
