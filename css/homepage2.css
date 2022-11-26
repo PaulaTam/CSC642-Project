@@ -55,6 +55,7 @@ nav {
     margin: 10px 10%;
     justify-content: space-between;
     padding-top: 30px;
+    flex-wrap: wrap;
 }
 
 .column-3 {
