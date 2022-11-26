@@ -48,14 +48,6 @@
 }
 .social-icon{
     margin: 30px auto;
-}
-
-.sign-up-form{
-    width: 400px;
-    box-shadow:  5px 5px gray;
-    background: #117ACA;
-    padding: 20px;
-    margin: 8% auto 0;
     text-align: center;
 }
 .social-icon img{
