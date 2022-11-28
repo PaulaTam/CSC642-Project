@@ -108,6 +108,12 @@ nav {
     margin: 0 0 5px 0;
 }
 
+.notification-title {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 45px;
+}
+
 .notif-icon {
     margin: 0 25px;
 }
