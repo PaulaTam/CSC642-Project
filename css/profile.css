@@ -17,6 +17,15 @@ nav {
     position: static;
 }
 
+footer{
+    padding: 0 18px;
+    color: white;
+    background-color: #72d369;
+    overflow: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
 .logo {
     height: 60px;
     padding: 0 30px;
@@ -58,6 +67,17 @@ li {
 .occ {
     width: 300px;
     height: 200px;
+    overflow: auto;
+}
+
+.contact{
+    width: 700px;
+    height: 400px;
+    overflow: auto;
+}
+.about{
+    width: 560px;
+    height: 350px;
     overflow: auto;
 }
 
