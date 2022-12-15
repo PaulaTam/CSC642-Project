@@ -124,6 +124,8 @@ nav {
     text-align: center;
     border: 1px solid;
     margin: 30px 10% 0 10%;
+    display: flex;
+    justify-content: center;
 }
 
 .maincontainer {
